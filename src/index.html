@@ -12,24 +12,43 @@
 
     <body>
         <div
-            class="flex flex-col h-screen items-center md:flex-row md:items-stretch"
+            class="flex flex-col h-screen items-stretch lg:flex-row lg:items-stretch "
         >
-            <nav class="container flex flex-col md:max-w-xl">
-                <div class="flex flex-col">
+            <nav
+                class="flex flex-col self-center max-w-sm py-8 mx-8 lg:self-stretch lg:w-full lg:max-w-md lg:h-full"
+            >
+                <div class="flex flex-col justify-between flex-1">
                     <div class="bg-yellow-400 self-center">
-                        <h1 class="inline-block">hellow</h1>
+                        <h1
+                            class="inline-block text-3xl text-center w-full pb-3 lg:text-left lg:text-6xl"
+                        >
+                            Halo,
+                            <br />
+                            nama saya
+                            <br />
+                            Zaky Bilfagih :)
+                        </h1>
+                        <p class="text-md lg:text-lg">
+                            Bisa dipanggil 'Zaky' atau 'Zakbil', suka bermain
+                            tenis meja, senang membuat hal yang seru terutama
+                            yang terkait dengan teknologi
+                        </p>
+                        <ul class="flex flex-col text-xl lg:text-2xl mt-4">
+                            <li><a href="#">Profil</a></li>
+                            <li><a href="#">Riwayat Pendidikan</a></li>
+                        </ul>
                     </div>
-                    <ul class="flex flex-col">
-                        <li><a href="#">item</a></li>
-                        <li><a href="#">item</a></li>
-                        <li><a href="#">item</a></li>
-                        <li><a href="#">item</a></li>
-                        <li><a href="#">item</a></li>
-                    </ul>
+                    <div
+                        class="flex text-xl lg:text-2xl self-center mt-8 lg:self-start"
+                    >
+                        <p>Github</p>
+                        <span class="px-2">|</span>
+                        <p>Twitter</p>
+                    </div>
                 </div>
             </nav>
-            <div class="container bg-red-400 flex-auto">
-                <div class="container">
+            <div class="bg-red-400 flex-auto ">
+                <div class="container h-screen">
                     <h1>test</h1>
                 </div>
             </div>
