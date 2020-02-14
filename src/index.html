@@ -12,15 +12,15 @@
 
     <body>
         <div
-            class="flex flex-col h-screen items-stretch lg:flex-row lg:items-stretch "
+            class="flex flex-col h-screen items-stretch md:flex-row md:items-stretch "
         >
             <nav
-                class="flex flex-col self-center max-w-sm py-8 mx-8 lg:self-stretch lg:w-full lg:max-w-md lg:h-full"
+                class="flex flex-col self-center max-w-xs py-6 mx-8 md:self-stretch md:w-full lg:max-w-sm lg:h-full"
             >
                 <div class="flex flex-col justify-between flex-1">
                     <div class="bg-yellow-400 self-center">
                         <h1
-                            class="inline-block text-3xl text-center w-full pb-3 lg:text-left lg:text-6xl"
+                            class="inline-block text-2xl text-center w-full pb-3 md:text-left md:text-5xl"
                         >
                             Halo,
                             <br />
@@ -28,18 +28,20 @@
                             <br />
                             Zaky Bilfagih :)
                         </h1>
-                        <p class="text-md lg:text-lg">
+                        <p class="text-xs md:text-base xl:text-lg">
                             Bisa dipanggil 'Zaky' atau 'Zakbil', suka bermain
                             tenis meja, senang membuat hal yang seru terutama
                             yang terkait dengan teknologi
                         </p>
-                        <ul class="flex flex-col text-xl lg:text-2xl mt-4">
+                        <ul
+                            class="flex flex-col text-lg md:text-xl xl:text-2xl mt-4"
+                        >
                             <li><a href="#">Profil</a></li>
                             <li><a href="#">Riwayat Pendidikan</a></li>
                         </ul>
                     </div>
                     <div
-                        class="flex text-xl lg:text-2xl self-center mt-8 lg:self-start"
+                        class="flex text-lg md:text-xl xl:text-2xl self-center mt-6 md:self-start"
                     >
                         <p>Github</p>
                         <span class="px-2">|</span>
@@ -47,8 +49,11 @@
                     </div>
                 </div>
             </nav>
-            <div class="bg-red-400 flex-auto ">
-                <div class="container h-screen">
+            <div class="bg-red-400 flex-auto overflow-y-scroll">
+                <div class="container h-full  md:h-screen">
+                    <h1>test</h1>
+                </div>
+                <div class="bg-green-600 container h-full md:h-screen">
                     <h1>test</h1>
                 </div>
             </div>
